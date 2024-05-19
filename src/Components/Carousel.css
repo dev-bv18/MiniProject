@@ -1,6 +1,7 @@
 /* src/Carousel.css */
 body{
     background: url('https://source.unsplash.com/1000x900?camera');
+    background-size: cover;
 }
 .carousel-container {
     position: relative;
