@@ -61,4 +61,19 @@ body{
   .left-arrow:active, .right-arrow:active{
    color: rgba(255, 255, 255, 0.222);
   }
-  
+  @media  screen and (max-width:500px) {
+    .left-arrow, .right-arrow{
+      font-size: 1.5rem;
+      width: 15px;
+
+    }
+    .body{
+      background-size: cover;
+      background-repeat: no-repeat;
+    }
+    .carousel-container{
+      height: 400px;
+      margin-top: 35%;
+      border-radius: 20px;
+    }
+  }
