@@ -10,20 +10,21 @@ body{
     overflow: hidden;
     display: flex;
     align-items: center;
+   
   }
   
   .carousel-slide {
     display: flex;
     height: 650px;
     margin-top: 25px;
-    transition: transform 0.5s ease-in-out;
+    transition: transform 1s ease-in-out;
     width: 100%;
   }
   
   .carousel-slide img {
     min-width: 100%;
     height: auto;
-    border-radius: 10px;
+    border-radius: 20px;
   }
   
   .left-arrow, .right-arrow {
