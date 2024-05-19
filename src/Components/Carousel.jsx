@@ -4,13 +4,18 @@ import './Carousel.css';
 
 const Carousel = () => {
   const images = [
-    'https://source.unsplash.com/1000x1500?scenery',
+    'https://source.unsplash.com/1000x900?coffee',
+    'https://source.unsplash.com/1000x900?html',
+    'https://source.unsplash.com/1000x900?scenery',
     'https://source.unsplash.com/1000x900?dog',
     'https://source.unsplash.com/1000x900?india',
     'https://source.unsplash.com/1000x900?food',
     'https://source.unsplash.com/1000x900?computer',
     'https://source.unsplash.com/1000x900?odisha',
-    'https://source.unsplash.com/1000x900?bird'
+    'https://source.unsplash.com/1000x900?bird',
+    'https://source.unsplash.com/1000x900?tiger',
+    'https://source.unsplash.com/1000x900?wildlife',
+    'https://source.unsplash.com/1000x900?technology'
   ];
 
   const [currentIndex, setCurrentIndex] = useState(0);
@@ -43,6 +48,7 @@ const Carousel = () => {
         {images.map((image, index) => (
           <img key={index} src={image} alt={`Slide ${index}`} />
         ))}
+        
       </div>
       <div className="right-arrow" onClick={goToNext}>
         &#10095;

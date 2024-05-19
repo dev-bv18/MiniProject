@@ -1,6 +1,6 @@
 /* src/Carousel.css */
 body{
-    background: url('https://source.unsplash.com/1000x900?camera');
+    background: url('https://source.unsplash.com/1000x900?pattern');
     background-size: cover;
 }
 .carousel-container {
@@ -68,8 +68,8 @@ body{
 
     }
     .body{
-      background-size: cover;
-      background-repeat: no-repeat;
+      background-size:cover;
+      
     }
     .carousel-container{
       height: 400px;
