@@ -1,0 +1,63 @@
+/* src/Carousel.css */
+body{
+    background: url('https://source.unsplash.com/1000x900?camera');
+}
+.carousel-container {
+    position: relative;
+    width: 80%;
+    margin: auto;
+    overflow: hidden;
+    display: flex;
+    align-items: center;
+  }
+  
+  .carousel-slide {
+    display: flex;
+    height: 650px;
+    margin-top: 25px;
+    transition: transform 0.5s ease-in-out;
+    width: 100%;
+  }
+  
+  .carousel-slide img {
+    min-width: 100%;
+    height: auto;
+    border-radius: 10px;
+  }
+  
+  .left-arrow, .right-arrow {
+    position: absolute;
+    top: 50%;
+    transform: translateY(-50%);
+    font-size: 3rem;
+    color: #fff;
+    background-color: rgba(0, 0, 0, 0.108);
+    border-radius: 50%;
+    padding: 10px;
+    align-items: center;
+    text-align: center;
+    justify-content: center;
+    padding-bottom: 15px;
+    padding-right: 15px;
+    padding-left: 15px;
+    cursor: pointer;
+    width: 60px;
+    z-index: 1;
+  }
+  
+  .left-arrow {
+    left: 10px;
+  }
+  
+  .right-arrow {
+    right: 10px;
+  }
+  
+  .left-arrow:hover, .right-arrow:hover {
+    background-color: rgba(0, 0, 0, 0.7);
+    transition: background-color 2s;
+  }
+  .left-arrow:active, .right-arrow:active{
+   color: rgba(255, 255, 255, 0.222);
+  }
+  
