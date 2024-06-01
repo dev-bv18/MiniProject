@@ -1,3 +1,4 @@
+A SIMPLE CAROUSEL WITH NEXT AND PREVIOUS BUTTON USING REACT 
 # Getting Started with Create React App
 
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
